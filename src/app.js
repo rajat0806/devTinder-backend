@@ -11,7 +11,7 @@ require("./utils/cronjob");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://devtinder-frontend-three.vercel.app/",
     credentials: true,
   })
 );
